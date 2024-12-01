@@ -1,0 +1,130 @@
+#############
+#...........#
+###B#C#B#D###
+  #A#D#C#A#  
+  #########  
+moving type 0, pos = 0
+[]
+moving type 0, pos = 6
+[]
+moving type 1, pos = 1
+[(11, 2), (13, 4), (15, 6), (17, 8), (18, 9), (9, 2), (8, 3)]
+moving type 1, pos = 5
+[(15, 2), (17, 4), (18, 5), (13, 2), (11, 4), (9, 6), (8, 7)]
+moving type 2, pos = 3
+[(13, 2), (15, 4), (17, 6), (18, 7), (11, 2), (9, 4), (8, 5)]
+moving type 2, pos = 4
+[]
+moving type 3, pos = 2
+[]
+moving type 3, pos = 7
+[(17, 2), (18, 3), (15, 2), (13, 4), (11, 6), (9, 8), (8, 9)]
+#############
+#...B.......#
+###B#C#.#D###
+  #A#D#C#A#  
+  #########  
+moving type 0, pos = 0
+[]
+moving type 0, pos = 6
+[]
+moving type 1, pos = 1
+[(9, 2), (8, 3)]
+moving type 1, pos = 11
+[]
+moving type 2, pos = 3
+[(13, 2), (5, 4), (15, 4), (17, 6), (18, 7)]
+moving type 2, pos = 4
+[]
+moving type 3, pos = 2
+[]
+moving type 3, pos = 7
+[(17, 2), (18, 3), (15, 2), (13, 4)]
+#############
+#...B.......#
+###B#.#C#D###
+  #A#D#C#A#  
+  #########  
+moving type 0, pos = 0
+[]
+moving type 0, pos = 6
+[]
+moving type 1, pos = 1
+[(9, 2), (8, 3)]
+moving type 1, pos = 11
+[]
+moving type 2, pos = 4
+[]
+moving type 2, pos = 5
+[]
+moving type 3, pos = 2
+[(13, 3), (15, 5), (17, 7), (18, 8)]
+moving type 3, pos = 7
+[(17, 2), (18, 3), (15, 2), (13, 4)]
+
+
+
+
+
+
+#############
+#...B.D.....#
+###B#.#C#D###
+  #A#.#C#A#  
+  #########  
+moving type 0, pos = 0
+[]
+moving type 0, pos = 6
+[]
+moving type 1, pos = 1
+[(9, 2), (8, 3)]
+moving type 1, pos = 11
+[(2, 3)]
+moving type 2, pos = 4
+[]
+moving type 2, pos = 5
+[]
+moving type 3, pos = 7
+[(17, 2), (18, 3), (15, 2)]
+moving type 3, pos = 13
+[]
+
+0
+
+
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+#############
+#...B.D.....#
+###B#.#C#D###
+  #A#.#C#A#  
+  #########  
+moving type 0, pos = 0
+[]
+moving type 0, pos = 6
+[]
+moving type 1, pos = 1
+[(9, 2), (8, 3)]
+moving type 1, pos = 11
+[(2, 3)]
+moving type 2, pos = 4
+[]
+moving type 2, pos = 5
+[]
+moving type 3, pos = 7
+[(17, 2), (18, 3), (15, 2)]
+moving type 3, pos = 13
+[]
+6

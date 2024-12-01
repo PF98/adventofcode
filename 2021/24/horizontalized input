@@ -1,0 +1,37 @@
+    01           02           03           04           05           06           07           08           09           10           11           12           13           14           
+ 1. inp w        inp w        inp w        inp w        inp w        inp w        inp w        inp w        inp w        inp w        inp w        inp w        inp w        inp w        all equal
+ 2. mul x 0      mul x 0      mul x 0      mul x 0      mul x 0      mul x 0      mul x 0      mul x 0      mul x 0      mul x 0      mul x 0      mul x 0      mul x 0      mul x 0      all equal
+ 3. add x z      add x z      add x z      add x z      add x z      add x z      add x z      add x z      add x z      add x z      add x z      add x z      add x z      add x z      all equal
+ 4. mod x 26     mod x 26     mod x 26     mod x 26     mod x 26     mod x 26     mod x 26     mod x 26     mod x 26     mod x 26     mod x 26     mod x 26     mod x 26     mod x 26     all equal
+ 5. div z 1      div z 1      div z 1      div z 26     div z 1      div z 26     div z 26     div z 1      div z 26     div z 1      div z 1      div z 26     div z 26     div z 26     !!! DIFFERENT !!!
+ 6. add x 11     add x 11     add x 15     add x -14    add x 10     add x 0      add x -6     add x 13     add x -3     add x 13     add x 15     add x -2     add x -9     add x -2     !!! DIFFERENT !!!
+ 7. eql x w      eql x w      eql x w      eql x w      eql x w      eql x w      eql x w      eql x w      eql x w      eql x w      eql x w      eql x w      eql x w      eql x w      all equal
+ 8. eql x 0      eql x 0      eql x 0      eql x 0      eql x 0      eql x 0      eql x 0      eql x 0      eql x 0      eql x 0      eql x 0      eql x 0      eql x 0      eql x 0      all equal
+ 9. mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      all equal
+10. add y 25     add y 25     add y 25     add y 25     add y 25     add y 25     add y 25     add y 25     add y 25     add y 25     add y 25     add y 25     add y 25     add y 25     all equal
+11. mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      all equal
+12. add y 1      add y 1      add y 1      add y 1      add y 1      add y 1      add y 1      add y 1      add y 1      add y 1      add y 1      add y 1      add y 1      add y 1      all equal
+13. mul z y      mul z y      mul z y      mul z y      mul z y      mul z y      mul z y      mul z y      mul z y      mul z y      mul z y      mul z y      mul z y      mul z y      all equal
+14. mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      mul y 0      all equal
+15. add y w      add y w      add y w      add y w      add y w      add y w      add y w      add y w      add y w      add y w      add y w      add y w      add y w      add y w      all equal
+16. add y 6      add y 14     add y 13     add y 1      add y 6      add y 13     add y 6      add y 3      add y 8      add y 14     add y 4      add y 7      add y 15     add y 1      !!! DIFFERENT !!!
+17. mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      mul y x      all equal
+18. add z y      add z y      add z y      add z y      add z y      add z y      add z y      add z y      add z y      add z y      add z y      add z y      add z y      add z y      all equal
+
+999...
+w = 9
+z = 10748
+04
+
+ 1. w = 9
+ 2. x = 0
+ 3. x = 10748
+ 4. x = 
+
+
+
+if div26:
+    z //= 26
+if (z % 26 + num6 != w)
+    z = z*26 + w + num16
+    

@@ -1,0 +1,143 @@
+--------
+-- Before any turn --
+- Player has 10 hit points, 0 armor, 250 mana
+- Boss has 13 hit points, 8 attack
+--------
+|   -- Player turn --
+|   - Player has 10 hit points, 0 armor, 250 mana
+|   - Boss has 13 hit points, 8 attack
+|   Player casts Magic Missile, dealing 4 damage.
+|   --------
+|   |   -- Boss turn --
+|   |   - Player has 10 hit points, 0 armor, 197 mana
+|   |   - Boss has 9 hit points, 8 attack
+|   |   Boss attacks for 8 damage!
+|   --------
+|   |   -- Player turn --
+|   |   - Player has 2 hit points, 0 armor, 197 mana
+|   |   - Boss has 9 hit points, 8 attack
+|   |   Player casts Magic Missile, dealing 4 damage.
+|   |   ...
+|   |   Skipping depth over 2
+|   |   ...
+|   |   
+|   |   Player casts Drain, dealing 2 damage, and healing 2 hit points.
+|   |   ...
+|   |   Skipping depth over 2
+|   |   ...
+|   |   
+|   |   Player casts Shield, increasing armor by 7.
+|   |   ...
+|   |   Skipping depth over 2
+|   |   ...
+|   |   
+|   |   Player casts Poison.
+|   |   ...
+|   |   Skipping depth over 2
+|   |   ...
+|   |   
+|   |   !!! Recharge is not usable
+|   |   !!! mana: 197 -> hasMana: False
+|   |   !!! effects: [None, None, None, None, None] -> not hasEffect(4): True
+|   |    <- returning None
+|   Player casts Drain, dealing 2 damage, and healing 2 hit points.
+|   --------
+|   |   -- Boss turn --
+|   |   - Player has 12 hit points, 0 armor, 177 mana
+|   |   - Boss has 11 hit points, 8 attack
+|   |   Boss attacks for 8 damage!
+|   --------
+|   |   -- Player turn --
+|   |   - Player has 4 hit points, 0 armor, 177 mana
+|   |   - Boss has 11 hit points, 8 attack
+|   |   Player casts Magic Missile, dealing 4 damage.
+|   |   ...
+|   |   Skipping depth over 2
+|   |   ...
+|   |   
+|   |   Player casts Drain, dealing 2 damage, and healing 2 hit points.
+|   |   ...
+|   |   Skipping depth over 2
+|   |   ...
+|   |   
+|   |   Player casts Shield, increasing armor by 7.
+|   |   ...
+|   |   Skipping depth over 2
+|   |   ...
+|   |   
+|   |   Player casts Poison.
+|   |   ...
+|   |   Skipping depth over 2
+|   |   ...
+|   |   
+|   |   !!! Recharge is not usable
+|   |   !!! mana: 177 -> hasMana: False
+|   |   !!! effects: [None, None, None, None, None] -> not hasEffect(4): True
+|   |    <- returning None
+|   Player casts Shield, increasing armor by 7.
+|   --------
+|   |   -- Boss turn --
+|   |   - Player has 10 hit points, 7 armor, 137 mana
+|   |   - Boss has 13 hit points, 8 attack
+|   |   Shield's timer is now 5.
+|   |   Boss attacks for 8 - 7 = 1 damage!
+|   --------
+|   |   -- Player turn --
+|   |   - Player has 9 hit points, 7 armor, 137 mana
+|   |   - Boss has 13 hit points, 8 attack
+|   |   Shield's timer is now 4.
+|   |   Player casts Magic Missile, dealing 4 damage.
+|   |   ...
+|   |   Skipping depth over 2
+|   |   ...
+|   |   
+|   |   Player casts Drain, dealing 2 damage, and healing 2 hit points.
+|   |   ...
+|   |   Skipping depth over 2
+|   |   ...
+|   |   
+|   |   !!! Shield is not usable
+|   |   !!! mana: 137 -> hasMana: True
+|   |   !!! effects: [None, None, (<__main__.Shield object at 0x7fa9df43c730>, 4), None, None] -> not hasEffect(2): False
+|   |   !!! Poison is not usable
+|   |   !!! mana: 137 -> hasMana: False
+|   |   !!! effects: [None, None, (<__main__.Shield object at 0x7fa9df43c730>, 4), None, None] -> not hasEffect(3): True
+|   |   !!! Recharge is not usable
+|   |   !!! mana: 137 -> hasMana: False
+|   |   !!! effects: [None, None, (<__main__.Shield object at 0x7fa9df43c730>, 4), None, None] -> not hasEffect(4): True
+|   |    <- returning None
+|   Player casts Poison.
+|   --------
+|   |   -- Boss turn --
+|   |   - Player has 10 hit points, 0 armor, 77 mana
+|   |   - Boss has 13 hit points, 8 attack
+|   |   Poison's timer is now 5 and it deals 3 damage.
+|   |   Boss attacks for 8 damage!
+|   --------
+|   |   -- Player turn --
+|   |   - Player has 2 hit points, 0 armor, 77 mana
+|   |   - Boss has 10 hit points, 8 attack
+|   |   Poison's timer is now 4 and it deals 3 damage.
+|   |   Player casts Magic Missile, dealing 4 damage.
+|   |   ...
+|   |   Skipping depth over 2
+|   |   ...
+|   |   
+|   |   ~~~ Skipping Drain since it costs 73 mana and we already have a better alternative (lowestMana = 226)
+|   |   !!! Shield is not usable
+|   |   !!! mana: 77 -> hasMana: False
+|   |   !!! effects: [None, None, None, (<__main__.Poison object at 0x7fa9df43c790>, 4), None] -> not hasEffect(2): True
+|   |   !!! Poison is not usable
+|   |   !!! mana: 77 -> hasMana: False
+|   |   !!! effects: [None, None, None, (<__main__.Poison object at 0x7fa9df43c790>, 4), None] -> not hasEffect(3): False
+|   |   !!! Recharge is not usable
+|   |   !!! mana: 77 -> hasMana: False
+|   |   !!! effects: [None, None, None, (<__main__.Poison object at 0x7fa9df43c790>, 4), None] -> not hasEffect(4): True
+|   |    <- returning 226
+|   ~~~ Skipping Recharge since it costs 229 mana and we already have a better alternative (lowestMana = 226)
+|    <- returning 226
+
+
+
+Part One: You start with 50 hit points and 500 mana points. The boss's actual stats are in your puzzle input. What is the least amount of mana you can spend and still win the fight?
+226

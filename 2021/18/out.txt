@@ -1,0 +1,22 @@
+  [1, 1]
++ [2, 2]
+[[1, 1], [2, 2]]
+explode with depth = 0, num = [[1, 1], [2, 2]]
+    explode with depth = 1, num = [1, 1]
+        explode with depth = 2, num = 1
+        explode with depth = 2, num = 1
+    <- returned (False, [1, 1])
+    explode with depth = 1, num = [2, 2]
+        explode with depth = 2, num = 2
+        explode with depth = 2, num = 2
+    <- returned (False, [2, 2])
+<- returned (False, [[1, 1], [2, 2]])
+[[1, 1], [2, 2]]
+= [[1, 1], [2, 2]]
+
+[[1,1],[2,2]]
+
+
+Part One: What is the magnitude of the final sum?
+[[1, 1], [2, 2]]
+35

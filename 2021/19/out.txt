@@ -1,0 +1,6 @@
+Calling backPropagate on S(0) with S(1), (68, -1246, -43), xcc, xcc, zcc, zcc
+Calling backPropagate on S(1) with S(1), (0, -2492, 0), xcc, xcc, zcc, zcc, xcc, xcc, zcc, zcc
+Calling backPropagate on S(1) with S(0), (-68, -1246, 43), zc, zc, xc, xc
+Calling backPropagate on S(0) with S(0), (0, -2492, 0), zc, zc, xc, xc, zc, zc, xc, xc
+Matched scanners 0-1 with rot [zc, zc, xc, xc] on 12 matches with points 0 ((404, -588, -901)) and 3 ((336, 658, -858))
+  therefore s2 is at coords (68, -1246, -43)

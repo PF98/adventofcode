@@ -1,0 +1,91 @@
+[5, 5, 10, 15, 20]
+in with amount=25, used=0
+in with amount=20, used=0
+in with amount=15, used=0
+in with amount=10, used=0
+in with amount=5, used=0
+in with amount=0, used=0
+out with 1
+in with amount=0, used=1
+out with 1
+out with 2
+in with amount=5, used=1
+in with amount=0, used=1
+out with 1
+out with 1
+in with amount=0, used=2
+out with 1
+out with 4
+in with amount=10, used=1
+in with amount=5, used=1
+in with amount=0, used=1
+out with 1
+out with 1
+in with amount=0, used=2
+out with 1
+out with 2
+in with amount=5, used=2
+out with 0
+in with amount=0, used=3
+out with 1
+out with 7
+in with amount=15, used=1
+in with amount=10, used=1
+in with amount=5, used=1
+in with amount=0, used=1
+out with 1
+out with 1
+in with amount=0, used=2
+out with 1
+out with 2
+in with amount=5, used=2
+out with 0
+in with amount=0, used=3
+out with 1
+out with 3
+in with amount=10, used=2
+in with amount=0, used=2
+out with 1
+out with 1
+in with amount=5, used=3
+out with 0
+in with amount=0, used=4
+out with 1
+out with 12
+in with amount=20, used=1
+in with amount=15, used=1
+in with amount=10, used=1
+in with amount=5, used=1
+in with amount=0, used=1
+out with 1
+out with 1
+in with amount=0, used=2
+out with 1
+out with 2
+in with amount=5, used=2
+out with 0
+in with amount=0, used=3
+out with 1
+out with 3
+in with amount=10, used=2
+in with amount=0, used=2
+out with 1
+out with 1
+in with amount=5, used=3
+out with 0
+in with amount=0, used=4
+out with 1
+out with 5
+in with amount=15, used=2
+in with amount=5, used=2
+out with 0
+in with amount=0, used=3
+out with 1
+out with 1
+in with amount=10, used=3
+out with 0
+in with amount=5, used=4
+out with 0
+out with 18
+Part One: Filling all containers entirely, how many different combinations of containers can exactly fit all 150 liters of eggnog?
+18

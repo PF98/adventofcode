@@ -1,0 +1,412 @@
+
+Stepping: 
+  extracted node (0, 0), with nodeDist = 0
+    pushed node (0, 1) at distance 1
+    pushed node (1, 0) at distance 1
+
+Stepping: 
+  extracted node (0, 1), with nodeDist = 1
+    pushed node (0, 2) at distance 3
+    pushed node (1, 1) at distance 4
+
+Stepping: 
+  extracted node (1, 0), with nodeDist = 1
+    pushed node (2, 0) at distance 7
+
+Stepping: 
+  extracted node (0, 2), with nodeDist = 3
+    pushed node (0, 3) at distance 6
+    pushed node (1, 2) at distance 4
+
+Stepping: 
+  extracted node (1, 1), with nodeDist = 4
+    pushed node (2, 1) at distance 12
+
+Stepping: 
+  extracted node (1, 2), with nodeDist = 4
+    pushed node (1, 3) at distance 10
+    pushed node (2, 2) at distance 7
+
+Stepping: 
+  extracted node (0, 3), with nodeDist = 6
+    pushed node (0, 4) at distance 13
+
+Stepping: 
+  extracted node (2, 0), with nodeDist = 7
+    pushed node (3, 0) at distance 10
+
+Stepping: 
+  extracted node (2, 2), with nodeDist = 7
+    pushed node (2, 3) at distance 16
+    pushed node (3, 2) at distance 13
+
+Stepping: 
+  extracted node (1, 3), with nodeDist = 10
+    pushed node (1, 4) at distance 14
+
+Stepping: 
+  extracted node (3, 0), with nodeDist = 10
+    pushed node (3, 1) at distance 11
+    pushed node (4, 0) at distance 17
+
+Stepping: 
+  extracted node (3, 1), with nodeDist = 11
+    pushed node (4, 1) at distance 14
+
+Stepping: 
+  extracted node (2, 1), with nodeDist = 12
+
+Stepping: 
+  extracted node (0, 4), with nodeDist = 13
+    pushed node (0, 5) at distance 14
+
+Stepping: 
+  extracted node (3, 2), with nodeDist = 13
+    pushed node (3, 3) at distance 17
+    pushed node (4, 2) at distance 18
+
+Stepping: 
+  extracted node (0, 5), with nodeDist = 14
+    pushed node (0, 6) at distance 15
+    pushed node (1, 5) at distance 17
+
+Stepping: 
+  extracted node (1, 4), with nodeDist = 14
+    pushed node (2, 4) at distance 20
+
+Stepping: 
+  extracted node (4, 1), with nodeDist = 14
+    pushed node (5, 1) at distance 21
+
+Stepping: 
+  extracted node (0, 6), with nodeDist = 15
+    pushed node (0, 7) at distance 18
+    pushed node (1, 6) at distance 18
+
+Stepping: 
+  extracted node (2, 3), with nodeDist = 16
+
+Stepping: 
+  extracted node (1, 5), with nodeDist = 17
+    pushed node (2, 5) at distance 18
+
+Stepping: 
+  extracted node (3, 3), with nodeDist = 17
+    pushed node (3, 4) at distance 20
+    pushed node (4, 3) at distance 26
+
+Stepping: 
+  extracted node (4, 0), with nodeDist = 17
+    pushed node (5, 0) at distance 22
+
+Stepping: 
+  extracted node (0, 7), with nodeDist = 18
+    pushed node (0, 8) at distance 19
+    pushed node (1, 7) at distance 19
+
+Stepping: 
+  extracted node (1, 6), with nodeDist = 18
+    pushed node (2, 6) at distance 23
+
+Stepping: 
+  extracted node (2, 5), with nodeDist = 18
+    pushed node (3, 5) at distance 27
+
+Stepping: 
+  extracted node (4, 2), with nodeDist = 18
+    pushed node (5, 2) at distance 19
+
+Stepping: 
+  extracted node (0, 8), with nodeDist = 19
+    pushed node (0, 9) at distance 21
+    pushed node (1, 8) at distance 21
+
+Stepping: 
+  extracted node (1, 7), with nodeDist = 19
+    pushed node (2, 7) at distance 21
+
+Stepping: 
+  extracted node (5, 2), with nodeDist = 19
+    pushed node (5, 3) at distance 22
+    pushed node (6, 2) at distance 20
+
+Stepping: 
+  extracted node (2, 4), with nodeDist = 20
+
+Stepping: 
+  extracted node (3, 4), with nodeDist = 20
+    pushed node (4, 4) at distance 24
+
+Stepping: 
+  extracted node (6, 2), with nodeDist = 20
+    pushed node (6, 3) at distance 21
+    pushed node (6, 1) at distance 23
+    pushed node (7, 2) at distance 23
+
+Stepping: 
+  extracted node (0, 9), with nodeDist = 21
+    pushed node (1, 9) at distance 24
+
+Stepping: 
+  extracted node (1, 8), with nodeDist = 21
+    pushed node (2, 8) at distance 30
+
+Stepping: 
+  extracted node (2, 7), with nodeDist = 21
+    pushed node (3, 7) at distance 26
+
+Stepping: 
+  extracted node (5, 1), with nodeDist = 21
+
+Stepping: 
+  extracted node (6, 3), with nodeDist = 21
+    pushed node (6, 4) at distance 28
+    pushed node (7, 3) at distance 26
+
+Stepping: 
+  extracted node (5, 0), with nodeDist = 22
+    pushed node (6, 0) at distance 23
+
+Stepping: 
+  extracted node (5, 3), with nodeDist = 22
+    pushed node (5, 4) at distance 23
+
+Stepping: 
+  extracted node (2, 6), with nodeDist = 23
+    pushed node (3, 6) at distance 32
+
+Stepping: 
+  extracted node (5, 4), with nodeDist = 23
+    pushed node (5, 5) at distance 25
+
+Stepping: 
+  extracted node (6, 0), with nodeDist = 23
+    pushed node (7, 0) at distance 30
+
+Stepping: 
+  extracted node (6, 1), with nodeDist = 23
+    pushed node (7, 1) at distance 29
+
+Stepping: 
+  extracted node (7, 2), with nodeDist = 23
+    pushed node (8, 2) at distance 25
+
+Stepping: 
+  extracted node (1, 9), with nodeDist = 24
+    pushed node (2, 9) at distance 25
+
+Stepping: 
+  extracted node (4, 4), with nodeDist = 24
+    pushed node (4, 5) at distance 25
+
+Stepping: 
+  extracted node (2, 9), with nodeDist = 25
+    pushed node (3, 9) at distance 26
+
+Stepping: 
+  extracted node (4, 5), with nodeDist = 25
+    pushed node (4, 6) at distance 34
+
+Stepping: 
+  extracted node (5, 5), with nodeDist = 25
+    pushed node (5, 6) at distance 26
+    pushed node (6, 5) at distance 33
+
+Stepping: 
+  extracted node (8, 2), with nodeDist = 25
+    pushed node (8, 3) at distance 31
+    pushed node (8, 1) at distance 32
+    pushed node (9, 2) at distance 33
+
+Stepping: 
+  extracted node (3, 7), with nodeDist = 26
+    pushed node (3, 8) at distance 29
+    pushed node (4, 7) at distance 30
+
+Stepping: 
+  extracted node (3, 9), with nodeDist = 26
+    pushed node (4, 9) at distance 35
+
+Stepping: 
+  extracted node (4, 3), with nodeDist = 26
+
+Stepping: 
+  extracted node (5, 6), with nodeDist = 26
+    pushed node (5, 7) at distance 28
+    pushed node (6, 6) at distance 28
+
+Stepping: 
+  extracted node (7, 3), with nodeDist = 26
+    pushed node (7, 4) at distance 27
+
+Stepping: 
+  extracted node (3, 5), with nodeDist = 27
+
+Stepping: 
+  extracted node (7, 4), with nodeDist = 27
+    pushed node (7, 5) at distance 28
+    pushed node (8, 4) at distance 28
+
+Stepping: 
+  extracted node (5, 7), with nodeDist = 28
+    pushed node (5, 8) at distance 31
+    pushed node (6, 7) at distance 29
+
+Stepping: 
+  extracted node (6, 4), with nodeDist = 28
+
+Stepping: 
+  extracted node (6, 6), with nodeDist = 28
+    pushed node (7, 6) at distance 32
+
+Stepping: 
+  extracted node (7, 5), with nodeDist = 28
+    pushed node (8, 5) at distance 31
+
+Stepping: 
+  extracted node (8, 4), with nodeDist = 28
+    pushed node (9, 4) at distance 29
+
+Stepping: 
+  extracted node (3, 8), with nodeDist = 29
+    pushed node (4, 8) at distance 30
+
+Stepping: 
+  extracted node (6, 7), with nodeDist = 29
+    pushed node (6, 8) at distance 37
+    pushed node (7, 7) at distance 35
+
+Stepping: 
+  extracted node (7, 1), with nodeDist = 29
+
+Stepping: 
+  extracted node (9, 4), with nodeDist = 29
+    pushed node (9, 5) at distance 36
+    pushed node (9, 3) at distance 38
+
+Stepping: 
+  extracted node (2, 8), with nodeDist = 30
+
+Stepping: 
+  extracted node (4, 7), with nodeDist = 30
+
+Stepping: 
+  extracted node (4, 8), with nodeDist = 30
+
+Stepping: 
+  extracted node (7, 0), with nodeDist = 30
+    pushed node (8, 0) at distance 34
+
+Stepping: 
+  extracted node (5, 8), with nodeDist = 31
+    pushed node (5, 9) at distance 35
+
+Stepping: 
+  extracted node (8, 3), with nodeDist = 31
+
+Stepping: 
+  extracted node (8, 5), with nodeDist = 31
+    pushed node (8, 6) at distance 33
+
+Stepping: 
+  extracted node (3, 6), with nodeDist = 32
+
+Stepping: 
+  extracted node (7, 6), with nodeDist = 32
+
+Stepping: 
+  extracted node (8, 1), with nodeDist = 32
+    pushed node (9, 1) at distance 34
+
+Stepping: 
+  extracted node (6, 5), with nodeDist = 33
+
+Stepping: 
+  extracted node (8, 6), with nodeDist = 33
+    pushed node (8, 7) at distance 36
+    pushed node (9, 6) at distance 34
+
+Stepping: 
+  extracted node (9, 2), with nodeDist = 33
+
+Stepping: 
+  extracted node (4, 6), with nodeDist = 34
+
+Stepping: 
+  extracted node (8, 0), with nodeDist = 34
+    pushed node (9, 0) at distance 36
+
+Stepping: 
+  extracted node (9, 1), with nodeDist = 34
+
+Stepping: 
+  extracted node (9, 6), with nodeDist = 34
+    pushed node (9, 7) at distance 43
+
+Stepping: 
+  extracted node (4, 9), with nodeDist = 35
+
+Stepping: 
+  extracted node (5, 9), with nodeDist = 35
+    pushed node (6, 9) at distance 39
+
+Stepping: 
+  extracted node (7, 7), with nodeDist = 35
+    pushed node (7, 8) at distance 40
+
+Stepping: 
+  extracted node (8, 7), with nodeDist = 36
+    pushed node (8, 8) at distance 38
+
+Stepping: 
+  extracted node (9, 0), with nodeDist = 36
+
+Stepping: 
+  extracted node (9, 5), with nodeDist = 36
+
+Stepping: 
+  extracted node (6, 8), with nodeDist = 37
+
+Stepping: 
+  extracted node (8, 8), with nodeDist = 38
+    pushed node (8, 9) at distance 46
+    pushed node (9, 8) at distance 39
+
+Stepping: 
+  extracted node (9, 3), with nodeDist = 38
+
+Stepping: 
+  extracted node (6, 9), with nodeDist = 39
+    pushed node (7, 9) at distance 44
+
+Stepping: 
+  extracted node (9, 8), with nodeDist = 39
+    pushed node (9, 9) at distance 40
+
+Stepping: 
+  extracted node (7, 8), with nodeDist = 40
+
+Stepping: 
+  extracted node (9, 9), with nodeDist = 40
+reached end with unvisitedCount = 3
+
+Stepping: 
+  extracted node (9, 7), with nodeDist = 43
+
+Stepping: 
+  extracted node (7, 9), with nodeDist = 44
+
+Stepping: 
+  extracted node (8, 9), with nodeDist = 46
+[96m1[0m163751742
+[96m1[0m381373672
+[96m2[0m[96m1[0m[96m3[0m[96m6[0m[96m5[0m[96m1[0m[96m1[0m328
+369493[96m1[0m[96m5[0m69
+7463417[96m1[0m11
+1319128[96m1[0m[96m3[0m7
+13599124[96m2[0m1
+31254216[96m3[0m9
+12931385[96m2[0m[96m1[0m
+231194458[96m1[0m
+Part One: What is the lowest total risk of any path from the top left to the bottom right?
+40

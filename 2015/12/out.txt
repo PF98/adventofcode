@@ -1,0 +1,5 @@
+Part One: What is the sum of all numbers in the document?
+156366
+
+Part Two: Ignore any object (and all of its children) which has any property with the value "red". Do this only for objects ({...}), not arrays ([...]).
+96852

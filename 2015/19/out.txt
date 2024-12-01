@@ -1,0 +1,5 @@
+Part One: How many distinct molecules can be created?
+576
+
+Part Two: In your grid of 100x100 lights, given your initial configuration, but with the four corners always in the on state, how many lights are on after 100 steps?
+(201, 'NRnBSiRnCaRnFArYFArFArF')

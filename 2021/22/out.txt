@@ -1,0 +1,52 @@
+Part One: Execute the reboot steps. Afterward, considering only cubes in the region x=-50..50,y=-50..50,z=-50..50, how many cubes are on?
+0
+
+
+
+0) ((-5, 47), (-31, 22), (-19, 33))
+1) ((-44, 5), (-27, 21), (-14, 35))
+    Calling decompose on ((-5, 47), (-31, 22), (-19, 33)), 
+                     and ((-5, 5), (-27, 21), (-14, 33))
+    bordersCount: [(True, False), (False, False), (False, True)] -> 2
+    first difference: coordinate index 0
+        Calling decompose on ((-5, 5), (-31, 22), (-19, 33)), 
+                         and ((-5, 5), (-27, 21), (-14, 33))
+        bordersCount: [(True, True), (False, False), (False, True)] -> 3
+        first difference: coordinate index 1
+            Calling decompose on ((-5, 5), (-27, 21), (-19, 33)), 
+                             and ((-5, 5), (-27, 21), (-14, 33))
+            bordersCount: [(True, True), (True, True), (False, True)] -> 5
+            first difference: coordinate index 2
+                Calling decompose on ((-5, 5), (-27, 21), (-14, 33)), 
+                                 and ((-5, 5), (-27, 21), (-14, 33))
+2) ((-49, -1), (-11, 42), (-10, 38))
+    Calling decompose on ((-44, 5), (-27, 21), (-14, 35)), 
+                     and ((-44, -1), (-11, 21), (-10, 35))
+    bordersCount: [(True, False), (False, True), (False, True)] -> 3
+    first difference: coordinate index 0
+        Calling decompose on ((-44, -1), (-27, 21), (-14, 35)), 
+                         and ((-44, -1), (-11, 21), (-10, 35))
+        bordersCount: [(True, True), (False, True), (False, True)] -> 4
+        first difference: coordinate index 1
+            Calling decompose on ((-44, -1), (-11, 21), (-14, 35)), 
+                             and ((-44, -1), (-11, 21), (-10, 35))
+            bordersCount: [(True, True), (True, True), (False, True)] -> 5
+            first difference: coordinate index 2
+                Calling decompose on ((-44, -1), (-11, 21), (-10, 35)), 
+                                 and ((-44, -1), (-11, 21), (-10, 35))
+3) ((-20, 34), (-40, 6), (-44, 1))
+    Calling decompose on ((-49, -1), (-11, 42), (-10, 38)), 
+                     and ((-20, -1), (-11, 6), (-10, 1))
+    bordersCount: [(False, True), (True, False), (True, False)] -> 3
+    first difference: coordinate index 0
+        Calling decompose on ((-20, -1), (-11, 42), (-10, 38)), 
+                         and ((-20, -1), (-11, 6), (-10, 1))
+        bordersCount: [(True, True), (True, False), (True, False)] -> 4
+        first difference: coordinate index 1
+            Calling decompose on ((-20, -1), (-11, 6), (-10, 38)), 
+                             and ((-20, -1), (-11, 6), (-10, 1))
+            bordersCount: [(True, True), (True, True), (True, False)] -> 5
+            first difference: coordinate index 2
+                Calling decompose on ((-20, -1), (-11, 6), (-10, 1)), 
+                                 and ((-20, -1), (-11, 6), (-10, 1))
+4) ((26, 39), (40, 50), (-2, 11))
