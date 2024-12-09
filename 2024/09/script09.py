@@ -1,5 +1,8 @@
 FILE_NAME = "example"
 FILE_NAME = "input"
+#FILE_NAME = "test"
+
+import heapq
 
 with open(FILE_NAME) as file:
     data = [int(v) for v in file.readline().strip()]
@@ -16,24 +19,22 @@ for i,length in enumerate(data):
 
 L = len(filesystem)
 
-fs1 = list(filesystem)
-
 i = 0
 for j,v in enumerate(reversed(filesystem)):
     if v < 0:
         continue
     
-    while fs1[i] >= 0:
+    while filesystem[i] >= 0:
         i += 1
 
     if i >= L - j - 1:
         break
 
-    fs1[i] = v
-    fs1[-j-1] = -1
+    filesystem[i] = v
+    filesystem[-j-1] = -1
 
 tot = 0
-for i,v in enumerate(fs1):
+for i,v in enumerate(filesystem):
     if v < 0:
         break
 
@@ -44,35 +45,40 @@ print(tot)
 
 
 
-spaces = []
+
+
 files = []
+spaces = {i: [] for i in range(1,10)}
 p = 0
 for i,length in enumerate(data):
     # even index: file
     if i % 2 == 0:
         files.append((i // 2, p, length))
-    else:
-        spaces.append((p, length))
+    elif length > 0:
+        heapq.heappush(spaces[length], p)
     
     p += length
 
+
 tot = 0
 for i,pos,length in reversed(files):
-    for s,(s_pos,s_length) in enumerate(spaces):
-        if s_pos >= pos:
-            tot += i * length * (2 * pos + length - 1) // 2
-            break
+    first_l = None
+    for l in range(length, 10):
+        if not spaces[l] or spaces[l][0] >= pos:
+            continue
         
-        if s_length >= length:
-            tot += i * length * (2 * s_pos + length - 1) // 2
-            
-            if s_length > length:
-                spaces[s] = (s_pos + length, s_length - length)
-            else:
-                spaces.pop(s)
-            
-            break
-
+        if first_l is None or spaces[l][0] < spaces[first_l][0]:
+            first_l = l
+    
+    if first_l is not None:
+        pos = heapq.heappop(spaces[first_l])
+        
+        short_space = first_l - length
+        if short_space != 0:
+            heapq.heappush(spaces[short_space], pos + length)
+        
+    tot += i * length * (2 * pos + length - 1) // 2
+    
 print()
 print("Part Two:")
 print(tot)
